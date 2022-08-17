@@ -13,6 +13,11 @@ public interface IEmployeeService {
 	
 	Optional<Employee> getEmployee(Integer id);
 	
+	public void deleteEmployee(Integer id);
+	
+	public List<Employee> deleteAllEmployees();
+	
+	Employee updateEmployee(Employee employee, Integer id);
 	
 }
 
